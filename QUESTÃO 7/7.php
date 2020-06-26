@@ -95,4 +95,5 @@
     $heroi3 = new SuperHeroi("3","GAVIÃO ARQUEIRO", "ARCO E FLECHA", 5000, 5000, "EUA" );
     $heroi4 = new SuperHeroi("4", "DOLLY GUARANÁ", "SER O MELHOR REFRIGERANTE", 100000, 1000000, "BRASIL");
     echo $heroi1->aumentarEnergia();
+    echo $heroi1->calcularPoderMedio();
 ?>
